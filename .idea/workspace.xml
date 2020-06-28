@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5e922d3-7486-4c2f-b357-3a0207f537c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Game/src/main/java/com/game/model/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game/src/main/java/com/game/model/GameStatusManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game/src/main/java/com/game/model/HeroStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game/src/main/java/com/game/views/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphic/.idea/graphic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphic/src/main/java/com/graphic/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphic/src/main/java/com/graphic/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kodilla-jdbc/src/main/main4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kodilla-jdbc/src/test/test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kodilla-patterns/src/main/main6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kodilla-patterns/src/test/test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/config/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/dbService/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/dbService/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/dbService/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/CommentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/ROLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/domain/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/exception/ValueNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/repository/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/mylibrary/library/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/resources/templates/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/main/java/structure/CompositeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/main/java/structure/ICompositeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/main/java/structure/IMyStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/main/java/structure/INode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/main/java/structure/MyStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/main/java/structure/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestedStructure/src/test/java/structure/MyStructureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/debug/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/debug/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/figure/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/figure/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/punkty/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/punkty/PunktWsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/punkty/Punktowy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/reader/Read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/java/skrypty/ScriptReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/resources/file/enjoyTheSilence" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../punkt/src/main/resources/file/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/src/main/java/quiz/logic/GameCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/src/main/java/quiz/question/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/src/main/java/quiz/question/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/src/main/java/quiz/question/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz/src/main/java/quiz/start/DoQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizspring/src/main/java/com/quizspring/back/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizspring/src/main/java/com/quizspring/back/Gamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizspring/src/main/java/com/quizspring/back/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizspring/src/main/java/com/quizspring/back/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/config/AdminConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/config/CoreConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/controller/StaticWebPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/controller/TaskNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/controller/TrelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/controller/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/AttachmentsByType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/Badges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/CreatedTrelloCardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/Trello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TrelloBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TrelloBoardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TrelloCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TrelloCardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TrelloList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/TrelloListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/domain/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/mapper/TrelloMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/mapper/UMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/scheduler/EmailScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/service/DbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/service/MailCreatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/service/SimpleEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/service/TrelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/trello/client/TrelloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/trello/config/TrelloConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/trello/facade/TrelloFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapp/src/main/java/com/crud/restapp/tasks/trello/validator/TrelloValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/main/java/com/stream/invoice/simple/SimpleInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/main/java/com/stream/invoice/simple/SimpleItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/main/java/com/stream/invoice/simple/SimpleProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/test/java/com/stream/simple/invoice/SimpleInvoiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/Provide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/ProviderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/domain/Quantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trade/src/main/java/pl/trader/trade/service/ProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/5.0/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/5.0/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apache_tomcat_tomcat_juli_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_hibernate_core_5_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_hibernate_core_5_3_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_projectlombok_lombok_1_18_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_1_11_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_aop_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_aspects_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_aspects_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_beans_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_context_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_core_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_expression_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_orm_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_orm_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_test_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_tx_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.crud.tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.crud.tasks.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.crud.tasks.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.kodilla-hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.kodilla-hibernate.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.kodilla-hibernate.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.kodilla_hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.kodilla_hibernate.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.kodilla_hibernate.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.learn-hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.learn-hibernate.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.kodilla.learn-hibernate.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.tasks.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/com.tasks.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kodilla-hibernate.com.kodilla.kodilla-hibernate.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kodilla-hibernate.com.kodilla.kodilla-hibernate.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kodilla_hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module-6" beforeDir="false" afterPath="$PROJECT_DIR$/../Module-6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-course" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-jdbc/src/test/java/DbManagerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-jdbc/src/test/java/DbManagerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-patterns/src/main/java/com/kodilla/patterns/PatternsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-patterns/src/main/java/com/kodilla/patterns/PatternsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-patterns/src/main/java/com/kodilla/patterns/singleton/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-patterns/src/main/java/com/kodilla/patterns/singleton/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-patterns/src/main/java/com/kodilla/patterns/singleton/SettingsFileEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-patterns/src/main/java/com/kodilla/patterns/singleton/SettingsFileEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-patterns/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-patterns/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-patterns/src/test/java/com/kodilla/patterns/singleton/SettingsFileEngineTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-patterns/src/test/java/com/kodilla/patterns/singleton/SettingsFileEngineTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodilla-spring-intro" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-spring-intro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/dao/InvoiceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/dao/InvoiceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/dao/ItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/dao/ItemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/invoice/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/manytomany/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/manytomany/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/manytomany/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/manytomany/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/manytomany/dao/CompanyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/TaskFinancialDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/TaskFinancialDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/dao/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/dao/TaskDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/tasklist/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/tasklist/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/main/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/invoice/dao/InvoiceDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/domain/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/domain/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/domain/TaskDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/domain/TaskDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/mapper/TaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/service/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/service/DbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks/src/test/java/com/crud/tasks/TasksApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/test/java/com/crud/tasks/TasksApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dwC6w5oCq2l7ZVeGUKrM3PoEjh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LibraryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="library.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mylibrary.library.LibraryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5e922d3-7486-4c2f-b357-3a0207f537c8" name="Default Changelist" comment="" />
+      <created>1593326596784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593326596784</updated>
+      <workItem from="1593326602996" duration="11026000" />
+      <workItem from="1593340291482" duration="218000" />
+      <workItem from="1593340604287" duration="2766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1593342321435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593342321435" />
+    <state x="396" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593334553689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593334553689" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593329758480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593329758480" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593334434308">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593334434308" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1593344205048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593344205048" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1593344155029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593344155029" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1593326742679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593326742679" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593344197498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593344197498" />
+  </component>
+</project>

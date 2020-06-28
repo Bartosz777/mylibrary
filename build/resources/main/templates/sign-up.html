@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        #log {
+            text-align: center;
+            font-size: 20px;
+        }
+        #email {
+            text-align: center;
+            font-size: 20px;
+        }
+        #pass {
+            text-align: center;
+            margin-right: 45px;
+            font-size: 20px;
+        }
+        #sign {
+            text-align: center;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: sandybrown">
+<h1 style="text-align: center">You are registering on MyLibrary.com</h1>
+<form th:action="@{/register}" method="post">
+
+    <p id="log">LOGIN:<input type="text" name="username"></p>
+    <p id="pass">PASSWORD:<input type="password" name="password"></p>
+
+    <p id="email">EMAIL:<input type="email" name="email"></p>
+
+    <p id="sign"><input style="background-color: burlywood" type="submit" value="sign-up"></p>
+</form>
+</body>
+</html>

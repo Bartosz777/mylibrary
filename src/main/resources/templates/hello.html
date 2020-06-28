@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        #p1 {
+            text-align: center;
+            font-size: 35px;
+        }
+        #body{
+            background-color: sandybrown;
+        }
+        #sp {
+            text-align: center;
+            font-size: 35px;
+            color: crimson;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body id="body">
+<h1 id="p1">Hello on my website <span id="sp" th:text="${name}"/></h1>
+</body>
+</html>
