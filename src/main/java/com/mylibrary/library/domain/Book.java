@@ -23,7 +23,7 @@ public class Book {
 
     private boolean isRented;
 
-    @ManyToOne
+    @ManyToOne(targetEntity = User.class)
     private User user;
 
     @OneToMany(targetEntity = Comment.class, mappedBy = "book", cascade = CascadeType.ALL, fetch = FetchType.LAZY)

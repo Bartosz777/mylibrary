@@ -28,7 +28,7 @@ public class BookController {
         return bookMapper.mapToBookDto(bookService.addBook(bookMapper.mapToBook(bookDto)));
     }
 
-    @PutMapping(value = "/update", consumes = APPLICATION_JSON_VALUE)
+    @PutMapping(value = "/update")
     public BookDto updateBook(@RequestBody BookDto bookDto) {
         return bookMapper.mapToBookDto(bookService.addBook(bookMapper.mapToBook(bookDto)));
     }

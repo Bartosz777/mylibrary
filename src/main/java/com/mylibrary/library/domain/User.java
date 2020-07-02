@@ -27,17 +27,16 @@ public class User implements UserDetails {
     @Column(name = "comments")
     private List<Comment> comments;
 
-    @OneToMany(targetEntity = Book.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OneToMany(targetEntity = Book.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "user")
     private List<Book> rentBooks;
 
-    public User(Long id, String username, String password, boolean isEnabled, ROLE role, List<Comment> comments, List<Book> rentBooks, List<Book> readBooks) {
+    public User(Long id, String username, String password, boolean isEnabled, ROLE role, List<Comment> comments, List<Book> rentBooks) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.isEnabled = isEnabled;
         this.role = role;
         this.comments = comments;
-        this.rentBooks = rentBooks;
         this.rentBooks = rentBooks;
     }
 

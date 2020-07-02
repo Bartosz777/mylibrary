@@ -14,11 +14,11 @@ public class Comment {
 
     private String description;
 
-    @ManyToOne(targetEntity = User.class)
+    @ManyToOne(targetEntity = User.class, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @NotNull
     private User user;
 
-    @ManyToOne(targetEntity = Book.class)
+    @ManyToOne(targetEntity = Book.class, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @NotNull
     private Book book;
 

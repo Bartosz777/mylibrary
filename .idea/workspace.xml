@@ -303,50 +303,7 @@
       <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/controller/BookController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/BookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/BookDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/CommentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/CommentDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/domain/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/BMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/BMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/BMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/BMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/CMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/CMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/CMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/CMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/CommentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/UMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/UMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/UMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/mapper/UMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/repository/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/repository/CommentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mylibrary/library/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/generated/com/mylibrary/library/mapper/BMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/generated/com/mylibrary/library/mapper/BMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/generated/com/mylibrary/library/mapper/CMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/generated/com/mylibrary/library/mapper/CMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/generated/com/mylibrary/library/mapper/UMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/generated/com/mylibrary/library/mapper/UMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/BookDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/BookDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/CommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/CommentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/BMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/BMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/UMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/UMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskController.java" afterDir="false" />
@@ -437,7 +394,7 @@
       <workItem from="1593356997173" duration="5413000" />
       <workItem from="1593371401592" duration="1723000" />
       <workItem from="1593671654360" duration="17000" />
-      <workItem from="1593671690879" duration="4904000" />
+      <workItem from="1593671690879" duration="5536000" />
     </task>
     <servers />
   </component>
@@ -445,6 +402,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593677731364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593677731364" />
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1593360515092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -469,54 +430,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593677093747" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="204" key="GridCell.Tab.1.bottom" timestamp="1593677317224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593677317224" />
+    <state width="1493" height="204" key="GridCell.Tab.1.center" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="204" key="GridCell.Tab.1.left" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593677050427">
+    <state width="1493" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="204" key="GridCell.Tab.1.right" timestamp="1593677317223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1593677050428">
+    <state width="1493" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593677317223" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1593677235860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593677050428" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1593677050427">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593677235860" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1593677235859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1593677050427">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593677235859" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1593677235858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593677050427" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1593677050428">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593677235858" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1593677235859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593677050428" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593677235859" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1593344155029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
