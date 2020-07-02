@@ -1,5 +1,7 @@
 package com.mylibrary.library.mapper;
 
+
+
 import com.mylibrary.library.domain.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -13,17 +15,22 @@ public interface BMapper {
 
     BMapper INSTANCE = Mappers.getMapper(BMapper.class);
 
-    @Mapping(source = "commentsDto", target = "comments")
+    @Mappings({
+            @Mapping(source = "commentsDto", target = "comments"),
+            @Mapping(source = "userDto", target = "user"),
+            @Mapping(target = "rented", ignore = true)
+    })
     Book mapToBook(BookDto bookDto);
 
     @Mappings({
-            @Mapping(ignore = true, target = "id"),
-            @Mapping(source = "comments", target = "commentsDto")
+
+            @Mapping(target = "rented", ignore = true),
+            @Mapping(source = "comments", target = "commentsDto"),
+            @Mapping(source = "user", target = "userDto")
     })
     BookDto mapToBookDto(Book book);
 
     @Mappings({
-            @Mapping(target = "id", ignore = true),
             @Mapping(target = "bookDto", ignore = true),
             @Mapping(source = "user", target = "userDto")
     })
@@ -33,9 +40,7 @@ public interface BMapper {
             @Mapping(target = "email", ignore = true),
             @Mapping(target = "role", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
-            @Mapping(target = "rentBooksDto", ignore = true),
-            @Mapping(target = "readBooksDto", ignore = true),
-            @Mapping(target = "id", ignore = true)
+            @Mapping(target = "rentBooksDto", ignore = true)
     })
     UserDto mapToUserDto(User user);
 

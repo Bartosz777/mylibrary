@@ -1,5 +1,7 @@
 package com.mylibrary.library.mapper;
 
+
+
 import com.mylibrary.library.domain.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -22,15 +24,14 @@ public interface CMapper {
 
     @Mappings({
             @Mapping(source = "user", target = "userDto"),
-            @Mapping(source = "book", target = "bookDto"),
-            @Mapping(target = "id", ignore = true)
+            @Mapping(source = "book", target = "bookDto")
     })
     CommentDto mapToCommentDto(Comment comment);
 
     @Mappings({
             @Mapping(target = "description", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
-            @Mapping(target = "id", ignore = true)
+            @Mapping(target = "userDto", ignore = true)
     })
     BookDto mapToBookDto(Book book);
 
@@ -39,8 +40,6 @@ public interface CMapper {
             @Mapping(target = "role", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
             @Mapping(target = "rentBooksDto", ignore = true),
-            @Mapping(target = "readBooksDto", ignore = true),
-            @Mapping(target = "id", ignore = true)
     })
     UserDto mapToUserDto(User user);
 

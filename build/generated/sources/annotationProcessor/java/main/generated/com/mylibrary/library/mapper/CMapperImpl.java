@@ -12,7 +12,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-06-28T13:03:27+0200",
+    date = "2020-07-02T09:56:00+0200",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 public class CMapperImpl implements CMapper {
@@ -43,6 +43,7 @@ public class CMapperImpl implements CMapper {
 
         commentDto.setBookDto( mapToBookDto( comment.getBook() ) );
         commentDto.setUserDto( mapToUserDto( comment.getUser() ) );
+        commentDto.setId( comment.getId() );
         commentDto.setDescription( comment.getDescription() );
 
         return commentDto;
@@ -56,6 +57,7 @@ public class CMapperImpl implements CMapper {
 
         BookDto bookDto = new BookDto();
 
+        bookDto.setId( book.getId() );
         bookDto.setName( book.getName() );
         bookDto.setAuthor( book.getAuthor() );
         bookDto.setRented( book.isRented() );
@@ -71,6 +73,7 @@ public class CMapperImpl implements CMapper {
 
         UserDto userDto = new UserDto();
 
+        userDto.setId( user.getId() );
         userDto.setUsername( user.getUsername() );
         userDto.setPassword( user.getPassword() );
         userDto.setEnabled( user.isEnabled() );

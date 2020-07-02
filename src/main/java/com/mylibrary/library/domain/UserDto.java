@@ -1,5 +1,6 @@
 package com.mylibrary.library.domain;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -10,7 +11,6 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class UserDto {
 
-    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("id")
     private Long id;
 
@@ -39,15 +39,11 @@ public class UserDto {
     private List<CommentDto> commentsDto;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty("readBooks")
-    private List<BookDto> readBooksDto;
-
-    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("rentBooks")
-    private List<BookDto> rentBooksDto;
+    private List<Book> rentBooksDto;
 
     public UserDto(Long id, String username, String password, String email,ROLE role, boolean isEnabled,
-                   List<CommentDto> commentsDto, List<BookDto> readBooksDto, List<BookDto> rentBooksDto) {
+                   List<CommentDto> commentsDto, List<Book> rentBooksDto) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -55,7 +51,6 @@ public class UserDto {
         this.role = role;
         this.isEnabled = isEnabled;
         this.commentsDto = commentsDto;
-        this.readBooksDto = readBooksDto;
         this.rentBooksDto = rentBooksDto;
     }
 
@@ -119,19 +114,11 @@ public class UserDto {
         this.commentsDto = commentsDto;
     }
 
-    public List<BookDto> getReadBooksDto() {
-        return readBooksDto;
-    }
-
-    public void setReadBooksDto(List<BookDto> readBooksDto) {
-        this.readBooksDto = readBooksDto;
-    }
-
-    public List<BookDto> getRentBooksDto() {
+    public List<Book> getRentBooksDto() {
         return rentBooksDto;
     }
 
-    public void setRentBooksDto(List<BookDto> rentBooksDto) {
+    public void setRentBooksDto(List<Book> rentBooksDto) {
         this.rentBooksDto = rentBooksDto;
     }
 }

@@ -1,13 +1,15 @@
 package com.mylibrary.library.controller;
 
-import com.mylibrary.library.domain.Comment;
+
 import com.mylibrary.library.domain.CommentDto;
 import com.mylibrary.library.mapper.CommentMapper;
 import com.mylibrary.library.service.CommentService;
 import org.springframework.web.bind.annotation.*;
 
+import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
+
 @RestController
-@RequestMapping("comment")
+@RequestMapping("/comment")
 public class CommentController {
 
     private CommentMapper commentMapper;
@@ -18,10 +20,9 @@ public class CommentController {
         this.commentService = commentService;
     }
 
-    @PostMapping("/add")
-    @ResponseBody
-    public CommentDto addComment(@RequestBody Comment comment) {
-        return commentMapper.mapToCommentDto(commentService.addComment(comment));
+    @PostMapping(value = "/add", consumes = APPLICATION_JSON_VALUE)
+    public CommentDto addComment(@RequestBody CommentDto commentDto) {
+        return commentMapper.mapToCommentDto(commentService.addComment(commentMapper.mapToComment(commentDto)));
     }
 
     @DeleteMapping("/delete")

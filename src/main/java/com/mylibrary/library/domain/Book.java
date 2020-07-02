@@ -1,5 +1,7 @@
 package com.mylibrary.library.domain;
 
+
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.List;
@@ -11,23 +13,30 @@ public class Book {
     private Long id;
 
     @Column(name = "name", unique = true)
+    @NotNull
     private String name;
 
+    @NotNull
     private String author;
 
     private String description;
 
     private boolean isRented;
 
+    @ManyToOne
+    private User user;
+
     @OneToMany(targetEntity = Comment.class, mappedBy = "book", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @Column(name = "comments")
     private List<Comment> comments;
 
-    public Book(@NotNull String name, @NotNull String author, String description, @NotNull boolean isRented, List<Comment> comments) {
+    public Book(Long id,String name, String author, String description, boolean isRented, List<Comment> comments, User user) {
+        this.id = id;
         this.name = name;
         this.author = author;
         this.description = description;
         this.isRented = isRented;
+        this.user = user;
         this.comments = comments;
     }
 
@@ -81,5 +90,13 @@ public class Book {
 
     public void setComments(List<Comment> comments) {
         this.comments = comments;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

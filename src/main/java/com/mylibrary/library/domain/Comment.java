@@ -1,5 +1,6 @@
 package com.mylibrary.library.domain;
 
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
@@ -13,11 +14,11 @@ public class Comment {
 
     private String description;
 
-    @ManyToOne
+    @ManyToOne(targetEntity = User.class)
     @NotNull
     private User user;
 
-    @ManyToOne
+    @ManyToOne(targetEntity = Book.class)
     @NotNull
     private Book book;
 
@@ -29,6 +30,7 @@ public class Comment {
     }
 
     public Comment() {
+
     }
 
     public Long getId() {

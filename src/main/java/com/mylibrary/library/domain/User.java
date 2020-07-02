@@ -9,6 +9,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+
 @Entity
 public class User implements UserDetails {
 
@@ -22,12 +23,9 @@ public class User implements UserDetails {
     private String email;
     private boolean isEnabled;
     private ROLE role;
-    @OneToMany(targetEntity = Comment.class, cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "user")
+    @OneToMany(targetEntity = Comment.class, mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @Column(name = "comments")
     private List<Comment> comments;
-
-    @OneToMany(targetEntity = Book.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private List<Book> readBooks;
 
     @OneToMany(targetEntity = Book.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Book> rentBooks;
@@ -98,10 +96,6 @@ public class User implements UserDetails {
         return comments;
     }
 
-    public List<Book> getReadBooks() {
-        return readBooks;
-    }
-
     public List<Book> getRentBooks() {
         return rentBooks;
     }
@@ -132,10 +126,6 @@ public class User implements UserDetails {
 
     public void setComments(List<Comment> comments) {
         this.comments = comments;
-    }
-
-    public void setReadBooks(List<Book> readBooks) {
-        this.readBooks = readBooks;
     }
 
     public void setRentBooks(List<Book> rentBooks) {

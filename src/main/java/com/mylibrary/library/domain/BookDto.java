@@ -1,5 +1,6 @@
 package com.mylibrary.library.domain;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -9,7 +10,6 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BookDto {
 
-    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("id")
     private Long id;
 
@@ -31,16 +31,22 @@ public class BookDto {
     @JsonProperty("comments")
     private List<CommentDto> commentsDto;
 
-    public BookDto(Long id, String name, String author, String description, boolean isRented, List<CommentDto> commentsDto) {
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonProperty("user")
+    private UserDto userDto;
+
+    public BookDto(Long id, String name, String author, String description, boolean isRented, List<CommentDto> commentsDto, UserDto userDto) {
         this.id = id;
         this.name = name;
         this.author = author;
         this.description = description;
         this.isRented = isRented;
         this.commentsDto = commentsDto;
+        this.userDto = userDto;
     }
 
     public BookDto() {
+
     }
 
     public Long getId() {
@@ -90,5 +96,14 @@ public class BookDto {
     public void setCommentsDto(List<CommentDto> commentsDto) {
         this.commentsDto = commentsDto;
     }
+
+    public UserDto getUserDto() {
+        return userDto;
+    }
+
+    public void setUserDto(UserDto userDto) {
+        this.userDto = userDto;
+    }
+
 }
 

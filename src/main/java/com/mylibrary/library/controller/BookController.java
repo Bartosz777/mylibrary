@@ -1,5 +1,6 @@
 package com.mylibrary.library.controller;
 
+
 import com.mylibrary.library.domain.BookDto;
 import com.mylibrary.library.exception.ValueNotFoundException;
 import com.mylibrary.library.mapper.BookMapper;
@@ -23,25 +24,21 @@ public class BookController {
     }
 
     @PostMapping(value = "/add", consumes = APPLICATION_JSON_VALUE)
-    @ResponseBody
     public BookDto addBook(@RequestBody BookDto bookDto) {
         return bookMapper.mapToBookDto(bookService.addBook(bookMapper.mapToBook(bookDto)));
     }
 
-    @PutMapping(value = "/update")
-    @ResponseBody
+    @PutMapping(value = "/update", consumes = APPLICATION_JSON_VALUE)
     public BookDto updateBook(@RequestBody BookDto bookDto) {
         return bookMapper.mapToBookDto(bookService.addBook(bookMapper.mapToBook(bookDto)));
     }
 
     @GetMapping("/getall")
-    @ResponseBody
     public List<BookDto> getBooks() {
         return bookMapper.mapToBookDtoList(bookService.getBooks());
     }
 
     @GetMapping("/getbyname")
-    @ResponseBody
     public BookDto getBookByName(@RequestParam(name = "name") String name) throws ValueNotFoundException {
         return bookMapper.mapToBookDto(bookService.getBookByName(name).orElseThrow(() -> new ValueNotFoundException("Value " + name + " not found exception")));
     }
@@ -52,7 +49,6 @@ public class BookController {
     }
 
     @GetMapping("/getbyauthor")
-    @ResponseBody
     public BookDto getBookByAuthor(@RequestParam("author") String author) throws ValueNotFoundException {
         return bookMapper.mapToBookDto(bookService.getBookByAuthor(author).orElseThrow(() -> new ValueNotFoundException("Author " + author + " doesn't exist")));
     }

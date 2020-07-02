@@ -1,5 +1,6 @@
 package com.mylibrary.library.domain;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -7,7 +8,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CommentDto {
 
-    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("id")
     private Long id;
 
@@ -15,7 +15,7 @@ public class CommentDto {
     private String description;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty(value = "user")
+    @JsonProperty("user")
     private UserDto userDto;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -30,6 +30,7 @@ public class CommentDto {
     }
 
     public CommentDto() {
+
     }
 
     public Long getId() {

@@ -12,7 +12,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-06-28T13:03:26+0200",
+    date = "2020-07-02T09:13:36+0200",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 public class UMapperImpl implements UMapper {
@@ -25,9 +25,12 @@ public class UMapperImpl implements UMapper {
 
         UserDto userDto = new UserDto();
 
-        userDto.setReadBooksDto( bookListToBookDtoList( user.getReadBooks() ) );
-        userDto.setRentBooksDto( bookListToBookDtoList( user.getRentBooks() ) );
         userDto.setCommentsDto( commentListToCommentDtoList( user.getComments() ) );
+        List<Book> list1 = user.getRentBooks();
+        if ( list1 != null ) {
+            userDto.setRentBooksDto( new ArrayList<Book>( list1 ) );
+        }
+        userDto.setId( user.getId() );
         userDto.setUsername( user.getUsername() );
         userDto.setEmail( user.getEmail() );
         userDto.setEnabled( user.isEnabled() );
@@ -43,9 +46,11 @@ public class UMapperImpl implements UMapper {
 
         User user = new User();
 
-        user.setReadBooks( bookDtoListToBookList( userDto.getReadBooksDto() ) );
+        List<Book> list = userDto.getRentBooksDto();
+        if ( list != null ) {
+            user.setRentBooks( new ArrayList<Book>( list ) );
+        }
         user.setComments( commentDtoListToCommentList( userDto.getCommentsDto() ) );
-        user.setRentBooks( bookDtoListToBookList( userDto.getRentBooksDto() ) );
         user.setId( userDto.getId() );
         user.setUsername( userDto.getUsername() );
         user.setPassword( userDto.getPassword() );
@@ -64,6 +69,7 @@ public class UMapperImpl implements UMapper {
 
         BookDto bookDto = new BookDto();
 
+        bookDto.setId( book.getId() );
         bookDto.setName( book.getName() );
         bookDto.setAuthor( book.getAuthor() );
         bookDto.setRented( book.isRented() );
@@ -80,6 +86,7 @@ public class UMapperImpl implements UMapper {
         CommentDto commentDto = new CommentDto();
 
         commentDto.setBookDto( mapToBookDto( comment.getBook() ) );
+        commentDto.setId( comment.getId() );
         commentDto.setDescription( comment.getDescription() );
 
         return commentDto;
@@ -99,19 +106,6 @@ public class UMapperImpl implements UMapper {
         return list;
     }
 
-    protected List<BookDto> bookListToBookDtoList(List<Book> list) {
-        if ( list == null ) {
-            return null;
-        }
-
-        List<BookDto> list1 = new ArrayList<BookDto>( list.size() );
-        for ( Book book : list ) {
-            list1.add( mapToBookDto( book ) );
-        }
-
-        return list1;
-    }
-
     protected List<CommentDto> commentListToCommentDtoList(List<Comment> list) {
         if ( list == null ) {
             return null;
@@ -120,35 +114,6 @@ public class UMapperImpl implements UMapper {
         List<CommentDto> list1 = new ArrayList<CommentDto>( list.size() );
         for ( Comment comment : list ) {
             list1.add( mapToCommentDto( comment ) );
-        }
-
-        return list1;
-    }
-
-    protected Book bookDtoToBook(BookDto bookDto) {
-        if ( bookDto == null ) {
-            return null;
-        }
-
-        Book book = new Book();
-
-        book.setId( bookDto.getId() );
-        book.setName( bookDto.getName() );
-        book.setAuthor( bookDto.getAuthor() );
-        book.setDescription( bookDto.getDescription() );
-        book.setRented( bookDto.isRented() );
-
-        return book;
-    }
-
-    protected List<Book> bookDtoListToBookList(List<BookDto> list) {
-        if ( list == null ) {
-            return null;
-        }
-
-        List<Book> list1 = new ArrayList<Book>( list.size() );
-        for ( BookDto bookDto : list ) {
-            list1.add( bookDtoToBook( bookDto ) );
         }
 
         return list1;
