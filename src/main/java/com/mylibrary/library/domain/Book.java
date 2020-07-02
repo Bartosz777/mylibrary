@@ -3,7 +3,6 @@ package com.mylibrary.library.domain;
 
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @Entity
@@ -12,11 +11,10 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "name", unique = true)
-    @NotNull
+    @Column(unique = true, nullable = false)
     private String name;
 
-    @NotNull
+    @Column(nullable = false)
     private String author;
 
     private String description;
@@ -27,7 +25,6 @@ public class Book {
     private User user;
 
     @OneToMany(targetEntity = Comment.class, mappedBy = "book", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @Column(name = "comments")
     private List<Comment> comments;
 
     public Book(Long id,String name, String author, String description, boolean isRented, List<Comment> comments, User user) {

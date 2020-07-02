@@ -12,7 +12,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-07-02T14:45:11+0200",
+    date = "2020-07-02T14:57:10+0200",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 public class BMapperImpl implements BMapper {

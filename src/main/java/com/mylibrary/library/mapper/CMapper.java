@@ -31,13 +31,16 @@ public interface CMapper {
     @Mappings({
             @Mapping(target = "description", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
-            @Mapping(target = "userDto", ignore = true)
+            @Mapping(target = "userDto", ignore = true),
+            @Mapping(target = "rented", ignore = true)
     })
     BookDto mapToBookDto(Book book);
 
     @Mappings({
             @Mapping(target = "email", ignore = true),
             @Mapping(target = "role", ignore = true),
+            @Mapping(target = "password", ignore = true),
+            @Mapping(target = "enabled", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
             @Mapping(target = "rentBooksDto", ignore = true),
     })

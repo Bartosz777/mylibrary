@@ -1,25 +1,19 @@
 package com.mylibrary.library.domain;
 
-
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 
 @Entity
 public class Comment {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @NotNull
     private Long id;
 
     private String description;
 
-    @ManyToOne(targetEntity = User.class, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @NotNull
+    @ManyToOne(targetEntity = User.class)
     private User user;
 
-    @ManyToOne(targetEntity = Book.class, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @NotNull
+    @ManyToOne(targetEntity = Book.class)
     private Book book;
 
     public Comment(Long id, String description, User user, Book book) {
@@ -64,5 +58,4 @@ public class Comment {
     public void setBook(Book book) {
         this.book = book;
     }
-
 }

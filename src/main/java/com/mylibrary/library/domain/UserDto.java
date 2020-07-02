@@ -35,15 +35,15 @@ public class UserDto {
     private ROLE role;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty("comments")
+    @JsonProperty("commentsDto")
     private List<CommentDto> commentsDto;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty("rentBooks")
-    private List<Book> rentBooksDto;
+    @JsonProperty("rentBooksDto")
+    private List<BookDto> rentBooksDto;
 
     public UserDto(Long id, String username, String password, String email,ROLE role, boolean isEnabled,
-                   List<CommentDto> commentsDto, List<Book> rentBooksDto) {
+                   List<CommentDto> commentsDto, List<BookDto> rentBooksDto) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -114,11 +114,11 @@ public class UserDto {
         this.commentsDto = commentsDto;
     }
 
-    public List<Book> getRentBooksDto() {
+    public List<BookDto> getRentBooksDto() {
         return rentBooksDto;
     }
 
-    public void setRentBooksDto(List<Book> rentBooksDto) {
+    public void setRentBooksDto(List<BookDto> rentBooksDto) {
         this.rentBooksDto = rentBooksDto;
     }
 }

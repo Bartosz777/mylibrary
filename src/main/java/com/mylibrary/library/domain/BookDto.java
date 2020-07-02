@@ -28,11 +28,11 @@ public class BookDto {
     private boolean isRented;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty("comments")
+    @JsonProperty("commentsDto")
     private List<CommentDto> commentsDto;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty("user")
+    @JsonProperty("userDto")
     private UserDto userDto;
 
     public BookDto(Long id, String name, String author, String description, boolean isRented, List<CommentDto> commentsDto, UserDto userDto) {
