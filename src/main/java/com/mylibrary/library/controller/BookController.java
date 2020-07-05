@@ -1,7 +1,6 @@
 package com.mylibrary.library.controller;
 
 import com.mylibrary.library.domain.BookDto;
-import com.mylibrary.library.domain.UserDto;
 import com.mylibrary.library.exception.ValueNotFoundException;
 import com.mylibrary.library.mapper.BookMapper;
 import com.mylibrary.library.service.BookService;
@@ -28,7 +27,7 @@ public class BookController {
         return bookMapper.mapToBookDto(bookService.addBook(bookMapper.mapToBook(bookDto)));
     }
 
-    @PutMapping(value = "/update")
+    @PutMapping(value = "/update", consumes = APPLICATION_JSON_VALUE)
     public BookDto updateBook(@RequestBody BookDto bookDto) {
         return bookMapper.mapToBookDto(bookService.addBook(bookMapper.mapToBook(bookDto)));
     }
@@ -53,9 +52,9 @@ public class BookController {
         return bookMapper.mapToBookDto(bookService.getBookByAuthor(author).orElseThrow(() -> new ValueNotFoundException("Author " + author + " doesn't exist")));
     }
 
-    @PutMapping("/rentBook")
-    public void rentABook(BookDto bookDto, UserDto userDto) {
-
+    @PutMapping(value = "/rent", consumes = APPLICATION_JSON_VALUE)
+    public BookDto rentABook(BookDto bookDto){
+        return bookMapper.mapToBookDto(bookService.rentBook(bookMapper.mapToBook(bookDto)));
     }
 
 }

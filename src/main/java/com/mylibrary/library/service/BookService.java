@@ -3,6 +3,7 @@ package com.mylibrary.library.service;
 
 
 import com.mylibrary.library.domain.Book;
+import com.mylibrary.library.exception.ValueNotFoundException;
 import com.mylibrary.library.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
@@ -36,6 +37,11 @@ public class BookService {
 
     public void delete(Long id) {
         bookRepository.deleteById(id);
+    }
+
+    public Book rentBook(Book book) {
+        book.setRented(true);
+        return bookRepository.save(book);
     }
 
 }

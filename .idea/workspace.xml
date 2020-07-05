@@ -308,16 +308,10 @@
       <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-hibernate/src/test/java/com/kodilla/learn/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/mylibrary/library/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/mylibrary/library/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/com/mylibrary/library/mapper/BMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/com/mylibrary/library/mapper/BMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/com/mylibrary/library/mapper/CMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/com/mylibrary/library/mapper/CMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/com/mylibrary/library/mapper/UMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/com/mylibrary/library/mapper/UMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/mylibrary/library/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/mylibrary/library/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/mylibrary/library/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/mylibrary/library/service/BookService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/domain/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mylibrary/library/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/com/crud/tasks/controller/TaskController.java" afterDir="false" />
@@ -413,7 +407,8 @@
       <workItem from="1593847588413" duration="86000" />
       <workItem from="1593848266383" duration="35000" />
       <workItem from="1593935329948" duration="4037000" />
-      <workItem from="1593947257717" duration="1177000" />
+      <workItem from="1593947257717" duration="3942000" />
+      <workItem from="1593952943982" duration="81000" />
     </task>
     <servers />
   </component>
@@ -457,38 +452,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593677093747" />
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.1.bottom" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.1.bottom" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.1.center" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.1.center" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.1.left" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.1.left" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
-    <state width="1493" height="204" key="GridCell.Tab.1.right" timestamp="1593948439074">
+    <state width="1493" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
+    <state width="1493" height="204" key="GridCell.Tab.1.right" timestamp="1593952893037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593948439074" />
+    <state width="1493" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593952893037" />
     <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1593700879110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
