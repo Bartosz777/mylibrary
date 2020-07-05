@@ -1,7 +1,5 @@
 package com.mylibrary.library.mapper;
 
-
-
 import com.mylibrary.library.domain.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

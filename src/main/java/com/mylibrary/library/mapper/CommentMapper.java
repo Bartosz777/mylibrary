@@ -1,6 +1,5 @@
 package com.mylibrary.library.mapper;
 
-
 import com.mylibrary.library.domain.Comment;
 import com.mylibrary.library.domain.CommentDto;
 import org.springframework.context.annotation.Configuration;
