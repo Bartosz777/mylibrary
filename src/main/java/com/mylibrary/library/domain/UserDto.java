@@ -32,7 +32,7 @@ public class UserDto {
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("role")
-    private ROLE role;
+    private Role role;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonProperty("commentsDto")
@@ -42,7 +42,7 @@ public class UserDto {
     @JsonProperty("rentBooksDto")
     private List<BookDto> rentBooksDto;
 
-    public UserDto(Long id, String username, String password, String email,ROLE role, boolean isEnabled,
+    public UserDto(Long id, String username, String password, String email, Role role, boolean isEnabled,
                    List<CommentDto> commentsDto, List<BookDto> rentBooksDto) {
         this.id = id;
         this.username = username;
@@ -90,11 +90,11 @@ public class UserDto {
         this.email = email;
     }
 
-    public ROLE getRole() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(ROLE role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 

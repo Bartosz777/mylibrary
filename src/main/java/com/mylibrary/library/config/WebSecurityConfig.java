@@ -1,6 +1,6 @@
 package com.mylibrary.library.config;
 
-import com.mylibrary.library.domain.ROLE;
+import com.mylibrary.library.domain.Role;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -32,14 +32,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        http.httpBasic();
         http.csrf().disable();
         http.headers().disable();
         http.authorizeRequests()
-                .antMatchers(HttpMethod.DELETE, "/books/*").hasAuthority(ROLE.ADMIN.name())
-                .antMatchers("/books/*").hasAuthority(ROLE.USER.name())
-                .antMatchers("/comment/*").hasAuthority(ROLE.USER.name())
                 .antMatchers("/hello").authenticated()
+                .antMatchers("/comment/*").authenticated()
+                .antMatchers("/books/delete").hasAuthority(Role.ADMIN.name())
+                .antMatchers("/books/*").authenticated()
                 .and()
-                .formLogin().defaultSuccessUrl("/hello");
+                .formLogin().permitAll().defaultSuccessUrl("/hello");
     }
 }

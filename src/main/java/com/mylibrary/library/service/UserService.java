@@ -2,7 +2,7 @@ package com.mylibrary.library.service;
 
 
 
-import com.mylibrary.library.domain.ROLE;
+import com.mylibrary.library.domain.Role;
 import com.mylibrary.library.domain.Token;
 import com.mylibrary.library.domain.User;
 import com.mylibrary.library.repository.TokenRepository;
@@ -31,7 +31,7 @@ public class UserService {
 
     public void addUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        user.setRole(ROLE.USER);
+        user.setRole(Role.USER);
         userRepository.save(user);
         sendToken(user);
     }

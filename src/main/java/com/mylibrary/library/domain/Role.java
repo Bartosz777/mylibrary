@@ -1,5 +1,5 @@
 package com.mylibrary.library.domain;
 
-public enum ROLE {
+public enum Role {
     ADMIN, USER
 }

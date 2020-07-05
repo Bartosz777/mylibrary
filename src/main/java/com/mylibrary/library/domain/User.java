@@ -22,7 +22,7 @@ public class User implements UserDetails {
     @Column(unique = true)
     private String email;
     private boolean isEnabled;
-    private ROLE role;
+    private Role role;
     @OneToMany(targetEntity = Comment.class, mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @Column(name = "comments")
     private List<Comment> comments;
@@ -30,7 +30,7 @@ public class User implements UserDetails {
     @OneToMany(targetEntity = Book.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "user")
     private List<Book> rentBooks;
 
-    public User(Long id, String username, String password, boolean isEnabled, ROLE role, List<Comment> comments, List<Book> rentBooks) {
+    public User(Long id, String username, String password, boolean isEnabled, Role role, List<Comment> comments, List<Book> rentBooks) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -83,7 +83,7 @@ public class User implements UserDetails {
         return id;
     }
 
-    public ROLE getRole() {
+    public Role getRole() {
         return role;
     }
 
@@ -115,7 +115,7 @@ public class User implements UserDetails {
         isEnabled = enabled;
     }
 
-    public void setRole(ROLE role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 
