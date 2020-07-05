@@ -1,7 +1,7 @@
 package com.mylibrary.library.controller;
 
-
 import com.mylibrary.library.domain.BookDto;
+import com.mylibrary.library.domain.UserDto;
 import com.mylibrary.library.exception.ValueNotFoundException;
 import com.mylibrary.library.mapper.BookMapper;
 import com.mylibrary.library.service.BookService;
@@ -51,6 +51,11 @@ public class BookController {
     @GetMapping("/getbyauthor")
     public BookDto getBookByAuthor(@RequestParam("author") String author) throws ValueNotFoundException {
         return bookMapper.mapToBookDto(bookService.getBookByAuthor(author).orElseThrow(() -> new ValueNotFoundException("Author " + author + " doesn't exist")));
+    }
+
+    @PutMapping("/rentBook")
+    public void rentABook(BookDto bookDto, UserDto userDto) {
+
     }
 
 }

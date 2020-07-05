@@ -29,18 +29,18 @@ public interface CMapper {
     CommentDto mapToCommentDto(Comment comment);
 
     @Mappings({
+            @Mapping(target = "rented", ignore = true),
             @Mapping(target = "description", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
             @Mapping(target = "userDto", ignore = true),
-            @Mapping(target = "rented", ignore = true)
     })
     BookDto mapToBookDto(Book book);
 
     @Mappings({
+            @Mapping(target = "enabled", ignore = true),
             @Mapping(target = "email", ignore = true),
             @Mapping(target = "role", ignore = true),
             @Mapping(target = "password", ignore = true),
-            @Mapping(target = "enabled", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
             @Mapping(target = "rentBooksDto", ignore = true),
     })

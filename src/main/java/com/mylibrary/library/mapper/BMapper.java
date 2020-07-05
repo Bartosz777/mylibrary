@@ -40,7 +40,8 @@ public interface BMapper {
             @Mapping(target = "email", ignore = true),
             @Mapping(target = "role", ignore = true),
             @Mapping(target = "commentsDto", ignore = true),
-            @Mapping(target = "rentBooksDto", ignore = true)
+            @Mapping(target = "rentBooksDto", ignore = true),
+            @Mapping(target = "password", ignore = true)
     })
     UserDto mapToUserDto(User user);
 
